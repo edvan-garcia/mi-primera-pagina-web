@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Nuevo Comienzo</title>
+    <style>
+        body {
+            background-color: #1e1e2f;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: #00ffcc;
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #cccccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #00ffcc;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #00cc99;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola, estoy comenzando mi nueva carrera en tecnología</h1>
+    <p id="mensaje">Tengo 38 años y estoy construyendo mi futuro.</p>
+
+    <button onclick="cambiarMensaje()">Haz clic aquí</button>
+
+    <script>
+        function cambiarMensaje() {
+            document.getElementById("mensaje").innerHTML =
+                "Estoy decidido a convertirme en desarrollador web 💻🔥";
+        }
+    </script>
+<h2>Mis objetivos en tecnología</h2>
+<ul>
+    <li>Conseguir mi primer empleo como desarrollador</li>
+    <li>Aprender JavaScript a nivel profesional</li>
+    <li>Especializarme en ciberseguridad</li>
+</ul>
+</body>
+</html>
